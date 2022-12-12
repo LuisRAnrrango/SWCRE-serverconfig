@@ -1,0 +1,9 @@
+server:
+  port: 8005
+datasources:
+  portal:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/msvc_cursos
+      username: root
+      password: fac123
+      driverClassName: org.postgresql.Driver
