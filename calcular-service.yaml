@@ -1,9 +1,0 @@
-server:
-  port: 8013
-datasources:
-  portal:
-    datasource:
-      url: jdbc:postgresql://localhost:5432/
-      username: root
-      password: fac123
-      driverClassName: org.postgresql.Driver
