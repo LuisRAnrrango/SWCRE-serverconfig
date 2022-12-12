@@ -23,3 +23,11 @@ spring:
           uri: lb://msvc-personas
           predicates:
             - Path=/persona/**
+        - id: msvc-personas
+          uri: lb://msvc-personas
+          predicates:
+            - Path=/pais/**
+        - id: msvc-personas
+          uri: lb://msvc-personas
+          predicates:
+            - Path=/provincia/**
