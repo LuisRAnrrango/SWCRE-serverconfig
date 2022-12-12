@@ -15,8 +15,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: calcular-service
-          uri: lb://calcular-service
+        - id: msvc-calcular
+          uri: lb://msvc-calcular
           predicates:
             - Path=/calcular/**
         - id: persona-service
