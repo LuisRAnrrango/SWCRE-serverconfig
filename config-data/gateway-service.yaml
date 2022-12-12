@@ -19,7 +19,7 @@ spring:
           uri: lb://msvc-calcular
           predicates:
             - Path=/calcular/**
-        - id: persona-service
-          uri: lb://persona-service
+        - id: msvc-personas
+          uri: lb://msvc-personas
           predicates:
             - Path=/persona/**
